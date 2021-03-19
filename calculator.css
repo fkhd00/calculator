@@ -1,0 +1,92 @@
+#calc{
+	margin:auto;
+	display: flex;
+	border:solid 6px black;
+	height: 600px;
+	width: 600px;
+	border-radius: 5px;
+	background-color: gray;
+	flex-wrap: wrap;
+	box-shadow: 0 0 1rem black;
+	margin-top: 5rem;
+}
+
+#screen{
+	font-size: 4rem;
+	margin-top: 0.3rem;
+	margin-left: 0.6rem;
+	border:solid 2px white;
+	height: 5rem;
+	width:36rem;
+	border-radius: 5px;
+	text-align: right;
+	background-color:rgba(213, 218, 219,0.6); 
+	color: white;
+	box-shadow: 0 0 1rem black; 
+	overflow: hidden;               /*  this make the content out of box hidden */     
+	overflow-wrap: break-word;      /*  made last overflown element visible disappear */
+}
+
+#nums{
+	display: flex;
+	margin-left: 5px;
+	flex-wrap: wrap;
+	border:solid 3px white;
+	height: 27rem;
+	width:26rem;
+	border-radius: 5px;
+}
+
+.numbers{
+	margin-left: 5px;
+	margin-top: 4px;
+	border:solid 2px white;
+	height: 6rem;
+	width:8rem;
+	border-radius: 5px;
+	font-size: 3rem;
+	text-align: center;    /* -------------this and next one make content centered vertically by making lineheight equal to height*/
+	line-height: 6rem;
+	box-shadow: 0 0 1rem black;
+
+	}
+	.numbers:hover{
+		transform: scale(1.05);
+	}
+
+	#operations{
+	margin-left: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	border:solid 3px white;
+	height: 27rem;
+	width:9.7rem;
+	border-radius: 5px;
+
+	}
+
+	.ops{
+	margin-left: 5px;
+	margin-top: 4px;
+	margin-right: 2px;
+	border:solid 2px white;
+	height: 4rem;
+	width:4rem;
+	border-radius: 5px;
+	text-align: center;    /* -------------this and next one make content centered vertically by making lineheight equal to height*/
+	line-height: 6rem;
+	box-shadow: 0 0 1rem black;
+	text-align: center;
+	line-height: 4rem;
+	font-size: 2rem;	
+
+	}
+
+	.ops:hover{
+		transform: scale(1.05);
+	}
+
+.playing {
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
